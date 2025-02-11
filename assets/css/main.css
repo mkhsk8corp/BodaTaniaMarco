@@ -1,4 +1,6 @@
-/**
+
+ /**
+
 * Template Name: Delicious
 * Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
 * Updated: Aug 07 2024 with Bootstrap v5.3.3
@@ -19,7 +21,7 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --background-color: #ffffff;/*  Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #433f39; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #ffb03b; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
@@ -51,6 +53,14 @@
   --surface-color: #42301c;
   --contrast-color: #ffffff;
 }
+
+.invitacion {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 
 /* Smooth scroll */
 :root {
@@ -877,6 +887,7 @@ section,
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px 5px;
+  margin-top: 450px;
   animation: fadeInUp 1s both 0.4s;
   border: 2px solid var(--accent-color);
 }
