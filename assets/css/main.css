@@ -21,10 +21,10 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffffff;/*  Background color for the entire website, including individual sections */
+  --background-color: #e5e9e3;/*  Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #433f39; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #ffb03b; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #a4b6a4; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -234,7 +234,7 @@ h6 {
 .header {
   --background-color: rgba(255, 255, 255, 0);
   --default-color: #ffffff;
-  --heading-color: #ffffff;
+  --heading-color: #C4A789;
   color: var(--default-color);
   transition: all 0.5s;
   z-index: 997;
@@ -1662,7 +1662,7 @@ section,
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--accent-color);
+  background: #A4B6A4;
   color: var(--contrast-color);
   border: 0;
   padding: 13px 50px;
