@@ -195,7 +195,7 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="myForm" method="post" role="form" class="php-email-form">
+            <form action="myForm" ID="myForm" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group mt-3">
                   <input type="text" name="nombre" id="nombre" class="form-control" id="name" placeholder="Nombre" required="">
@@ -227,9 +227,9 @@
                   event.preventDefault();
                   
                   var formData = {
-                      name: document.getElementById('name').value,
-                      email: document.getElementById('email').value,
-                      message: document.getElementById('message').value
+                      name: document.getElementById('nombre').value,
+                      email: document.getElementById('invitados').value,
+                      message: document.getElementById('mensaje').value
                   };
                   
                   fetch('https://script.google.com/macros/s/AKfycbygaRNAuEy1dSpdhTem2WW5uUJP9EY646Lr-jP5Hd6fJtHqWN-B6yE3nES5GwX9Po7x/exec', {
